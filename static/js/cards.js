@@ -1,37 +1,37 @@
 module.exports = [
     {
         front: "async (keyword)",
-        back: "function that returns automatically a promise.",
+        back: "Function that returns automatically a promise.",
         no: "1"
     },
     {
         front: "await (keyword)",
-        back: "pause the execution of the function until promise is resolved.",
+        back: "auses the execution of the function until promise is resolved.",
         no: "2"
     },
     {
         front: "throw",
-        back: "throws an error",
+        back: "The throw statement throws (generates) an error. When an error occurs, JavaScript will normally stop, and generate an error message.",
         no: "3"
     },
     {
         front: "AJAX",
-        back: "Asynchronous JavaScript and XML - Allows browser to do quick; incremental changes in inteface automatically - without reloading the entire browser page.",
+        back: "Asynchronous JavaScript and XML - Allows browser to do quick, incremental changes in inteface automatically - without reloading the entire browser page.",
         no: "4"
     },
     {
         front: "API",
-        back: "(def. Application Programming Interface) - Interfaceses that defines communication btw. software intermediaries.",
+        back: "(def. Application Programming Interface) - Interfaceses that defines communication between software intermediaries.",
         no: "5"
     },
     {
         front: "Web APIs",
-        back: "HTTP based API. Allows applications to request; send data; save data and many more by using specyfic \"endpoints\". ",
+        back: "HTTP based API. Allows applications to request, send data, save data and many more by using specyfic \"endpoints\". ",
         no: "6"
     },
     {
         front: "JSON",
-        back: "(def. Java Script Object Notation). Format of data; that app respond to a requests. Pure data without formatting.",
+        back: "(def. Java Script Object Notation) - standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. It is easy for humans to read and write.",
         no: "7"
     },
     {
@@ -61,7 +61,7 @@ module.exports = [
     },
     {
         front: "Self-executing function",
-        back: "Is when function is executed immediately upon it's definintion. Variables declared in the self executing function are; by default; only available to code within the self executing function.",
+        back: "Is when function is executed immediately upon it's definintion. Variables declared in the self executing function are only available to code within the self executing function.",
         no: "13"
     },
     {
@@ -76,17 +76,17 @@ module.exports = [
     },
     {
         front: ".bind()",
-        back: "� The bind() method creates a new function; when invoked; has the this sets to a provided value.\n� The bind() method allows an object to borrow a method from another object without making a copy of that method. This is known as function borrowing in JavaScript.",
+        back: "The bind() method creates a new function, when invoked, has the 'this' sets to a provided value. Allows an object to borrow a method from another object without making a copy of that method. This is known as function borrowing in JavaScript.",
         no: "16"
     },
     {
         front: "What is the difference btwn. call() and apply() methods?",
-        back: "Fundamental difference is that call() accepts an argument list; while apply() accepts a single array of arguments.",
+        back: "Fundamental difference is that call() accepts an argument list, while apply() accepts a single array of arguments.",
         no: "17"
     },
     {
         front: "event.preventDefault()",
-        back: "The preventDefault() method cancels the event if it is cancelable; meaning that the default action that belongs to the event will not occur.\n\nFor example; this can be useful when:\n\nClicking on a \"Submit\" button; prevent it from submitting a form\nClicking on a link; prevent the link from following the URL\n\nNot all events are cancelable.",
+        back: "The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur. For example, this can be useful when: clicking on a 'Submit' button prevents it from submitting a form or clicking on a link prevents the link from following the URL. Not all events are cancelable.",
         no: "18"
     },
     {
@@ -96,32 +96,32 @@ module.exports = [
     },
     {
         front: "Variable scope",
-        back: "Scope in JS determines the accessibility of variables. The two types of scope are local (declared inside of a block) and global(declared outside of a block). \nVariables declared with the var keyword are always function-scoped; meaning they recognize functions as having a separate scope; however let and const are block-scoped. This means that a new; local scope is created from any kind of block; including functions; if statements; and for and while loops.",
+        back: "Scope in JS determines the accessibility of variables. The two types of scope are local (declared inside of a block) and global(declared outside of a block).  Variables declared with the var keyword are always function-scoped, meaning they recognize functions as having a separate scope. However let and const are block-scoped. This means that a new, local scope is created from any kind of block, including: functions, if statements and loops.",
         no: "20"
     },
     {
         front: "Agile",
-        back: "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. This metodology separates  sprints consisting of define; design; develop; test; deploy",
+        back: "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. This metodology separates sprints consisting of following phases: define, design, develop, test, deploy",
         no: "21"
     },
     {
         front: "Scrum",
-        back: "Scrum is a subset of Agile. It is a lightweight process framework for agile development; and the most widely-used one. Scrum process framework requires the use of development cycles called Sprints",
+        back: "Scrum is a subset of Agile. It is a lightweight process framework for agile development and the most widely-used one. Scrum process framework requires the use of development cycles called Sprints",
         no: "22"
     },
     {
-        front: "http / https",
-        back: "Hypertext Transfer Protocol (Secure) - Without HTTPS; any data you enter into the site (such as your username/password; credit card or bank details; any other form submission data; etc.) will be sent plaintext",
+        front: "https",
+        back: "Hypertext Transfer Protocol Secure - It is the protocol where encrypted HTTP data is transferred over a secure connection.",
         no: "23"
     },
     {
         front: "SSL / TSL",
-        back: "Secure Sockets Layer / Transport Layer Security - both are cryptographic protocols that provide authentication and data encryption between servers; machines; and applications operating over a network. SSL has been replaced with newer TSL",
+        back: "Secure Sockets Layer / Transport Layer Security - both are cryptographic protocols that provide authentication and data encryption between servers, machines, and applications operating over a network. SSL has been replaced with newer TSL",
         no: "24"
     },
     {
         front: "DNS",
-        back: "Domain Name System; translates human readable domain names (for example; www.amazon.com) to machine readable IP addresses (for example; 192.0.2.44).",
+        back: "Domain Name System, translates human readable domain names (for example: www.amazon.com) to machine readable IP addresses (for example: 192.0.2.44).",
         no: "25"
     },
     {
@@ -131,7 +131,7 @@ module.exports = [
     },
     {
         front: "HTML",
-        back: "HTML is the World Wide Web's core markup language.",
+        back: "HyperText Markup Language - the World Wide Web's core markup language.",
         no: "27"
     },
     {
@@ -141,7 +141,7 @@ module.exports = [
     },
     {
         front: "RWD",
-        back: "Responsive Web Design is about using HTML and CSS to automatically resize; hide; shrink; or enlarge; a website; to make it look good on all devices (desktops; tablets; and phones)",
+        back: "Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink or enlarge a website, to make it look good on all devices (desktops, tablets and phones)",
         no: "29"
     },
     {
@@ -156,7 +156,7 @@ module.exports = [
     },
     {
         front: "Media queries",
-        back: "CSS technique introduced in CSS3; uses the @media rule to include a block of CSS properties only if a certain condition is true. It adds a breakpoint where certain parts of the design will behave differently.",
+        back: "CSS technique introduced in CSS3, uses the @media rule to include a block of CSS properties only if a certain condition is true. It adds a breakpoint where certain parts of the design will behave differently.",
         no: "32"
     },
     {
@@ -166,27 +166,27 @@ module.exports = [
     },
     {
         front: "Git",
-        back: "Git is a Distributed Version Control system (DVCS). It can track changes to a file and allows you to revert back to any particular change.\n\nIts distributed architecture major advantage is that it does not rely on a central server to store all the versions of a project�s files.",
+        back: "Git is a Distributed Version Control system (DVCS). It can track changes to a file and allows you to revert back to any particular change. Its distributed architecture major advantage is that it does not rely on a central server to store all the versions of a project's files.",
         no: "34"
     },
     {
         front: "Prototype-based language",
-        back: "To provide inheritance; objects can have a prototype object; which acts as a template object that it inherits methods and properties from.",
+        back: "To provide inheritance objects can have a prototype object, which acts as a template object that it inherits methods and properties from.",
         no: "35"
     },
     {
         front: "Prototype chain",
-        back: "An object's prototype object may also have a prototype object; which it inherits methods and properties from; and so on. This is often referred to as a prototype chain; and explains why different objects have properties and methods defined on other objects available to them.",
+        back: "An object's prototype object may also have a prototype object, which it inherits methods and properties from and so on. This is often referred to as a prototype chain and explains why different objects have properties and methods defined on other objects available to them.",
         no: "36"
     },
     {
         front: "Content Security Policy",
-        back: "CSP is an added layer of security that helps to detect and mitigate certain types of attacks; including Cross Site Scripting (XSS) and data injection attacks.To enable CSP; you need to configure your web server to return the Content-Security-Policy HTTP header.",
+        back: "CSP is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks.To enable CSP you need to configure web server to return the Content-Security-Policy HTTP header.",
         no: "37"
     },
     {
         front: "CORS",
-        back: "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain; scheme; or port) than its own from which a browser should permit loading of resources.",
+        back: "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme or port) than its own from which a browser should permit loading of resources.",
         no: "38"
     },
     {
@@ -196,7 +196,7 @@ module.exports = [
     },
     {
         front: "Result of: setTimeout(callback; 0)?",
-        back: "Invoking setTimeout with a callback and zero as the second argument will schedule the callback to be run asynchronously; after the shortest possible delay - which will be around 10ms when the tab has focus and the JavaScript thread of execution is not busy.",
+        back: "Invoking setTimeout with a callback and zero as the second argument will schedule the callback to be run asynchronously, after the shortest possible delay - which will be around 10ms when the tab has focus and the JavaScript thread of execution is not busy.",
         no: "40"
     },
     {
@@ -211,17 +211,17 @@ module.exports = [
     },
     {
         front: "What the promise is used for?",
-        back: "This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value; the asynchronous method returns a promise to supply the value at some point in the future.",
+        back: "This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.",
         no: "43"
     },
     {
         front: "What are states of promise?",
-        back: "� pending: initial state; neither fulfilled nor rejected.\n� fulfilled: meaning that the operation was completed successfully.\n� rejected: meaning that the operation failed.",
+        back: " - pending: initial state; neither fulfilled nor rejected.\n - fulfilled: meaning that the operation was completed successfully.\n - rejected: meaning that the operation failed.",
         no: "44"
     },
     {
         front: "pseudo-class (:pseudo-class-name)",
-        back: "Is a selector that selects elements that are in a specific state; e.g. they are the first element of their type; or they are being hovered over by the mouse pointer.",
+        back: "Is a selector that selects elements that are in a specific state, e.g. they are the first element of their type or they are being hovered over by the mouse pointer.",
         no: "45"
     },
     {
@@ -231,7 +231,7 @@ module.exports = [
     },
     {
         front: "How to style only the first line of <p>?",
-        back: "The ::first-line pseudo-element selector will do this reliably � if the number of words increases or decreases it will still only select the first line.",
+        back: "The ::first-line pseudo-element selector will do this reliably. If the number of words increases or decreases it will still only select the first line.",
         no: "47"
     },
     {
@@ -241,22 +241,22 @@ module.exports = [
     },
     {
         front: "CSS preprocessor",
-        back: "Is a program that lets you generate CSS from the preprocessor's own unique syntax.\nThe most popular are Sass; LESS; and Stylus.",
+        back: "Is a program that lets you generate CSS from the preprocessor's own unique syntax. The most popular are Sass, LESS, and Stylus.",
         no: "49"
     },
     {
-        front: "How do we call these operators \" = \"; \" == \" and \" === \"?",
-        back: "Assignment operator; comparsion operator and strict equality",
+        front: "How do we call these operators \" = \", \" == \" and \" === \"?",
+        back: "Assignment operator, comparsion operator and strict equality",
         no: "50"
     },
     {
         front: "Node.JS",
-        back: "It's an open-source; back-end JavaScript runtime environment that runs on the Chrome V8 engine and executes JavaScript code outside a web browser.",
+        back: "It's an open-source, back-end JavaScript runtime environment that runs on the Chrome V8 engine and executes JavaScript code outside a web browser.",
         no: "51"
     },
     {
         front: "SQL injection",
-        back: "Is one of the most common database hacking techniques. SQL injection is the placement of malicious code in SQL statements; via web page input.",
+        back: "Is one of the most common database hacking techniques. SQL injection is the placement of malicious code in SQL statements via web page input.",
         no: "52"
     },
     {
@@ -266,12 +266,12 @@ module.exports = [
     },
     {
         front: "Shared state",
-        back: "A shared state is any variable; object; or memory space that exists in a shared scope.",
+        back: "A shared state is any variable object or memory space that exists in a shared scope.",
         no: "54"
     },
     {
         front: "First-Class function",
-        back: "The first class functions are treated as first-class variables - can be passed to functions as parameter; can be returned from functions or stored in data structures.",
+        back: "The first class functions are treated as first-class variables - can be passed to functions as parameter, can be returned from functions or stored in data structures.",
         no: "55"
     },
     {
@@ -281,7 +281,7 @@ module.exports = [
     },
     {
         front: "Coding paradigms",
-        back: "� Imperative - focuses on how to achieve the goal. (OOP)\n� Declarative - focuses on what needs to be done rather how. (FP)",
+        back: " Imperative - focuses on how to achieve the goal. (OOP). Declarative - focuses on what needs to be done rather how. (FP)",
         no: "57"
     },
     {
@@ -295,28 +295,13 @@ module.exports = [
         no: "59"
     },
     {
-        front: "When is classical inheritance an appropriate choice?",
-        back: "Rarely; almost never; or never.",
-        no: "60"
-    },
-    {
-        front: "OOP",
-        back: "Object Oriented Programming is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes).",
-        no: "61"
-    },
-    {
-        front: "When is classical inheritance an appropriate choice?",
-        back: "Rarely; almost never; or never.",
-        no: "62"
-    },
-    {
         front: "Memory swapping",
         back: "Computer technology that enables an operating system to provide more memory to a running application or process than is available in physical random access memory (RAM).",
         no: "63"
     },
     {
         front: "RAM (Random Access Memory)",
-        back: "A form of computer memory that can be read and changed in any order; typically used to store working data and machine code.",
+        back: "A form of computer memory that can be read and changed in any order, typically used to store working data and machine code.",
         no: "64"
     },
     {
@@ -326,17 +311,17 @@ module.exports = [
     },
     {
         front: "Process",
-        back: "Process means a program is in execution. The process takes more time to terminate / for creartion / communication / context switching; than thread.",
+        back: "Process means a program is in execution. The process takes more time to terminate / for creartion / communication / context switching, than thread.",
         no: "66"
     },
     {
         front: "Thread",
-        back: "Thread means a segment of a process. The thread takes less time to terminate / for creartion / communication / context switching; than process.",
+        back: "Thread means a segment of a process. The thread takes less time to terminate / for creartion / communication / context switching, than process.",
         no: "67"
     },
     {
         front: "E2E testing",
-        back: "End-to-end testing validates the workflow of a system. For example; end-to-end testing of a purchasing app would ensure that a user can search for an item; add it to a cart; enter payment and shipping details; and complete the purchase.",
+        back: "End-to-end testing validates the workflow of a system. For example, end-to-end testing of a purchasing app would ensure that a user can search for an item, add it to a cart, enter payment and shipping details and complete the purchase.",
         no: "68"
     },
     {
@@ -351,7 +336,7 @@ module.exports = [
     },
     {
         front: "Non-functional testing",
-        back: "Non-functional testing tests how well the system works rather than its specific functions. Non-functional testing considers elements such as usability; responsiveness; and scalability.",
+        back: "Non-functional testing tests how well the system works rather than its specific functions. Non-functional testing considers elements such as usability, responsiveness and scalability.",
         no: "71"
     },
     {
@@ -361,12 +346,12 @@ module.exports = [
     },
     {
         front: "Structural testing",
-        back: "Structural testing is the type of testing carried out to test the structure of code. It is also known as White Box testing or Glass Box testing. This type of testing requires knowledge of the code; so; it is mostly done by the developers.",
+        back: "Structural testing is the type of testing carried out to test the structure of code. It is also known as White Box testing or Glass Box testing. This type of testing requires knowledge of the code, so it's mostly done by the developers.",
         no: "73"
     },
     {
         front: "Unit testing",
-        back: "Unit testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. A unit may be an individual function; method; procedure; modul or object. It is done during the development of an application by the developers.",
+        back: "Unit testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. A unit may be an individual function, method, procedure, module or object.",
         no: "74"
     },
     {
@@ -431,18 +416,13 @@ module.exports = [
     },
     {
         front: "* (asterisk) in terminal",
-        back: "An asterisk at the end of a command line is treated the same way as an asterisk anywhere else on the line � it's a wildcard that matches zero or more characters. Helpful while moving many files with similar name from one directory.",
+        back: "An asterisk at the end of a command line is treated the same way as an asterisk anywhere else on the line. It's a wildcard that matches zero or more characters. Helpful while moving many files with similar name from one directory.",
         no: "87"
     },
     {
         front: ".gitignore",
-        back: "A text file that specifies files / directories intentionally untracked which Git is going to ignore.",
+        back: "A text file that specifies files / directories intentionally untracked - which Git is going to ignore.",
         no: "88"
-    },
-    {
-        front: "process.cwd",
-        back: "Currnet working directory",
-        no: "89"
     },
     {
         front: "EJS",
@@ -450,28 +430,23 @@ module.exports = [
         no: "90"
     },
     {
-        front: "res.send()",
+        front: "res.send() (express) ",
         back: "Sends the HTTP response.",
         no: "91"
     },
     {
-        front: "res.render()",
+        front: "res.render() (express)",
         back: "Renders a view and sends the rendered HTML string to the client.",
         no: "92"
     },
     {
-        front: "Node.js framefork used to:\n� write handlers for requests with different URL paths (routes)\n� genrate responses (views rendering) ",
-        back: "Node.js framefork that provides a set of features that allows to:\n� write handlers for requests with different URL paths (routes)\n� genrate responses (views rendering) ",
-        no: "93"
-    },
-    {
         front: "Conditional (ternary) operator",
-        back: "is the only JavaScript operator that takes three operands: a condition followed by a question mark (?); then an expression to execute if the condition is truthy followed by a colon (:); and finally the expression to execute if the condition is falsy. This operator is frequently used as a shortcut for the if statement. eg.: num % 2 === 0 ? 'EVEN' : 'ODD'",
+        back: "The only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:); and finally the expression to execute if the condition is falsy. eg.: num % 2 === 0 ? 'EVEN' : 'ODD'",
         no: "94"
     },
     {
         front: "static assets",
-        back: "Static assets are object you send to the user that the server does not change. Images; stylesheets; JS files are an examples of static assets.",
+        back: "Static assets are object you send to the user that the server does not change. Images, stylesheets, JS files are an examples of static assets.",
         no: "95"
     },
     {
@@ -485,11 +460,6 @@ module.exports = [
         no: "97"
     },
     {
-        front: "GET vs POST request",
-        back: "GET:\n- used to retrieve information\n- data is sent via query string\n- Information is plainly visible in the URL!\n- Limited amount of data can be sent\n\nPOST:\n- Used to post data to the server\n- Used to write/create/update\n- Data is sent via request body; not a query string!\n- Can sent any sort of data (e.g.: JSON) ",
-        no: "98"
-    },
-    {
         front: "REST",
         back: "Representional State Transfer - is a set of guidelines for how client + server should communicate and perform CRUD operations on a given resource. Any web service that obey these guidelines/constraints is informally called RESTful",
         no: "99"
@@ -498,11 +468,6 @@ module.exports = [
         front: "CRUD",
         back: "CREATE / READ / UPDATE / DELETE (DESTROY)",
         no: "100"
-    },
-    {
-        front: "method override",
-        back: "",
-        no: "101"
     },
     {
         front: "What does it mean that JavaScript is an Interpreted language?",
@@ -526,33 +491,18 @@ module.exports = [
     },
     {
         front: "Explain the three main ways to apply CSS styles to a web page",
-        back: "� Inline - in HTML markup attribute.\n� Inside of <style> HTML element. \n� External file - stylesheet likned in <link src=\"styles.css\">",
+        back: " Inline - in HTML markup attribute. Inside of <style> HTML element. External file - stylesheet likned in <link src=\"styles.css\">",
         no: "106"
     },
     {
-        front: "Describe floats and how they work",
-        back: "Float is a CSS positioning property. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage.",
-        no: "107"
-    },
-    {
-        front: "Describe what UI design mean for you?",
-        back: "User Interface design is the design of software or websites with the focus on the user�s experience and interaction. The goal of user interface design is to make the user�s interaction as simple and efficient as possible. Good user interface design puts emphasis on goals and completing tasks. Good UI design never draws more attention to itself than enforcing user goals.",
-        no: "108"
-    },
-    {
-        front: "Explain Null and Undefined in JavaScript",
-        back: "Null is something that we can reffer to - with some place assined that we can find it, but it's value is empty. It's like empty box prepared to pack someting inside.\nUndefined is something that hasn't been initialised. We cannot reffer to it's place.",
+        front: "Explain Null and Undefined in JS",
+        back: "Null is something that we can reffer to - with some place assined that we can find it, but it's value is empty. It's like empty box prepared to pack someting inside.Undefined is something that hasn't been initialised. We cannot reffer to it's place.",
         no: "109"
     },
     {
-        front: "Explain the CSS �box model� and the layout components that it consists of",
-        back: "It's a rectangular layout for HTML elements. \nIt cosists of: content, padding, border and margin. It difines the way how the content is placed within it's surrounding",
+        front: "CSS box model",
+        back: "It's a rectangular layout for HTML elements. It cosists of: content, padding, border and margin. It defines the way how the content is placed within its surrounding",
         no: "110"
-    },
-    {
-        front: "What existing CSS frameworks can you use locally, or in production?",
-        back: "Bootstrap, Semantic UI, Bulma",
-        no: "111"
     },
     {
         front: "What is Cross Site Scripting (XSS)?",
@@ -566,12 +516,12 @@ module.exports = [
     },
     {
         front: "What is Sass?",
-        back: "Sass or Syntactically Awesome StyleSheets is a CSS preprocessor that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax.",
+        back: "Syntactically Awesome StyleSheets is a CSS preprocessor that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax.",
         no: "114"
     },
     {
         front: "What is a Polyfill?",
-        back: "A polyfill is essentially the specific code (or plugin) that would allow you to have some specific functionality that you expect in current or �modern� browsers to also work in other browsers that do not have the support for that functionality built in.\n\n� Polyfills are not part of the HTML5 standard\n� Polyfilling is not limited to Javascript",
+        back: "The specific code (or plugin) that would allow you to have some specific functionality that you expect in current or 'modern' browsers to also work in other browsers that do not have the support for that functionality built in.",
         no: "115"
     },
     {
@@ -586,18 +536,13 @@ module.exports = [
     },
     {
         front: "What is the difference between span and div?",
-        back: "� div is a block element\n� span is inline element\n\nYou can't place a block element inside an inline element. It's not possible for span to have a div or p tag inside.",
+        back: "div is a block element, span is inline element. You can't place a block element inside an inline element.",
         no: "118"
     },
     {
         front: "Explain the difference between undefined and not defined in JavaScript",
-        back: "A variable that is declared but not define and when we try to access it, It will result undefined.\nA variable that neither declared nor defined when we try to reference such variable then It result not defined.",
+        back: "A variable that is declared but not define and when we try to access it, It will result 'undefined'. A variable that neither declared nor defined when we try to reference such variable then It result 'not defined'.",
         no: "119"
-    },
-    {
-        front: "How to create a zebra striped table with CSS?",
-        back: "Use the nth-child() selector and add a background-color to all even (or odd) table rows:\n\ntr:nth-child(even) {\n    background-color: #f2f2f2\n}",
-        no: "120"
     },
     {
         front: "What is a serverless model?",
@@ -606,22 +551,17 @@ module.exports = [
     },
     {
         front: "What is ClickJacking?",
-        back: "Its other name, user interface (UI) redressing, better describes what is going on. Users think they are using a web page�s normal UI, but in fact there is a hidden UI in control;",
+        back: "Its other name, user interface (UI) redressing, better describes what is going on. Users think they are using a web page's normal UI, but in fact there is a hidden UI in control.",
         no: "122"
     },
     {
-        front: "",
-        back: "",
-        no: "123"
-    },
-    {
         front: "Mongo DB",
-        back: "Document-oriented database program; classified as a NoSQL database program; uses JSON-like documents with optional schemas.",
+        back: "Document-oriented database program, classified as a NoSQL database program, uses JSON-like documents with optional schemas.",
         no: "124"
     },
     {
         front: "Why to have database not just a file?",
-        back: "� DB can handle large amounts of data stored more efficiently and compacatly\n� DB provides tools for easy insertion, querying and updating of data\n� DB offers security features and controlled access",
+        back: "DB can handle large amounts of data stored more efficiently and compacatly. DB provides tools for easy insertion, querying and updating of data. DB offers security features and controlled access",
         no: "125"
     },
     {
@@ -641,17 +581,17 @@ module.exports = [
     },
     {
         front: "Instance",
-        back: "in OOP, is a specific realization of any object. An object may be varied in a number of ways. Each realized variation of that object is an instance. The creation of a realized instance is called instantiation",
+        back: "In OOP, is a specific realization of any object. An object may be varied in a number of ways. Each realized variation of that object is an instance. The creation of a realized instance is called instantiation",
         no: "129"
     },
     {
-        front: "Quick syntax to toggle any boolean?",
+        front: "Syntax to toggle any boolean?",
         back: "Var = !Var",
         no: "130"
     },
     {
         front: "static method (mongoose)",
-        back: "Refers to a the whole mongoose model - all  model elemets.",
+        back: "Refers to a the whole mongoose model - all  model elements.",
         no: "131"
     },
     {
