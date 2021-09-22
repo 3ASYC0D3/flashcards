@@ -15,12 +15,11 @@ mongoose.connect(dbUrl)
 
 const seedDB = async () => {
     await Card.deleteMany({});
-    for (let i = 0; i < 50; i++ ) {
-        const random50 = Math.floor(Math.random() * 50);
-        const card = new Card({
-            front: `${cardSamples[random50].front}`,
-            back: `${cardSamples[random50].back}`,
-            number: `${cardSamples[random50].no}`
+    for (let i = 0; i < 85; i++ ) {
+            const card = new Card({
+            front: `${cardSamples[i].front}`,
+            back: `${cardSamples[i].back}`,
+            number: `${cardSamples[i].no}`
         });
         await card.save();
     };
