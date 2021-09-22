@@ -10,34 +10,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body onload="getCard()">
+<body>
     <nav class="">
         <h2 class="logo current-card"><a href="/" class="logo-btn">Web Dev Flashcards</a></h2>
     </nav>
-
-
     <div class="container">    
-        <div class="card-front">
-            <div class="question-number">
-                <p>Question X of XYZ </p>
+
+            <% for (let i = 0; i < 50; i++) { %>
+
+                
+            <div id="card-no-<%=i%>" class="card-front invisible">
+                <div class="question-number">
+                    <p>Question <%= i + 1 %> of <%= cards.length %> </p>
+                </div>
+                <div class="question">
+                    <p><%= cards[i].front %></p>
+                </div>
+                <div id="answer-no-<%=i%>" class="answer invisible">
+                    <p><%= cards[i].back %></p>
+                </div> 
             </div>
-            <div class="question">
-                <p>question</p>
+
+            <% } %>
+            
+            <div class="start-button-container">
+                <button id="start" class="btn-start">Start!</button>
+            </div> 
+            <div class="button-container invisible">
+                <button id="showAnswer" class="btn-back">See the answer</button>
+                <button id="nextCard" class="btn-go-on"> Easy, go on! </button>
             </div>
-            <div class="answer">
-                <p>answer</p>
-            </div>
-        </div>
-        <div class="button-container">
-            <button id="showAnswer" class="btn-back">See the answer</button>
-            <button id="nextCard" class="btn-go-on"> Easy, go on! </button>
-        </div>
-        <div class="end-button-container invisible">
-            <form action="http://localhost:3000/flashcards">
-                <button id="restart" class="btn-restart" >Restart</button>
-            </form>
-        </div>        
+            <div class="end-button-container invisible">
+                <form action="http://localhost:3000/flashcards">
+                    <button class="btn-restart">Study again</button>
+                </form>
+            </div>        
     </div>
+
     <script src="/js/main.js"></script>
 </body>
 </html>
