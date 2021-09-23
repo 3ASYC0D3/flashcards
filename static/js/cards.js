@@ -16,7 +16,7 @@ module.exports = [
     },
     {
         front: "AJAX",
-        back: "Asynchronous JavaScript and XML - Allows browser to do quick, incremental changes in inteface automatically - without reloading the entire browser page.",
+        back: "Asynchronous JavaScript and XML - Allows browser to do quick, incremental changes in interface automatically - without reloading the entire browser page.",
         no: "4"
     },
     {
