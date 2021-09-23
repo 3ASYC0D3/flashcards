@@ -86,7 +86,7 @@ module.exports = [
     },
     {
         front: "event.preventDefault()",
-        back: "The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur. For example, this can be useful when: clicking on a 'Submit' button prevents it from submitting a form or clicking on a link prevents the link from following the URL. Not all events are cancelable.",
+        back: "The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur. For example, clicking on a 'Submit' button prevents it from submitting a form.",
         no: "18"
     },
     {
@@ -96,7 +96,7 @@ module.exports = [
     },
     {
         front: "Variable scope",
-        back: "Scope in JS determines the accessibility of variables. The two types of scope are local (declared inside of a block) and global(declared outside of a block).  Variables declared with the var keyword are always function-scoped, meaning they recognize functions as having a separate scope. However let and const are block-scoped. This means that a new, local scope is created from any kind of block, including: functions, if statements and loops.",
+        back: "The two types of scope are local (declared inside of a block) and global (declared outside of a block). Variables declared with the 'var' keyword are always function-scoped, but declared with 'let' and 'const' are block-scoped.",
         no: "20"
     },
     {
