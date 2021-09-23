@@ -131,8 +131,8 @@ button:hover {
 	min-height: 38vh;
 	max-height: none;
 	width: 33vw;
-	border: 1px solid teal;
-	box-shadow:  8px 8px black;
+	border: 3px solid black;
+	box-shadow:  8px 8px rgba(0, 0, 0, 0.555);
 	position: relative;
 }
 
