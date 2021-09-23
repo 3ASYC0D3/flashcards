@@ -7,11 +7,10 @@ const cons = require('consolidate');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
 const Card = require('./models/cards');
-const dbUrl = process.env.DB_URL;
-// 'mongodb://localhost:27017/flashcards' - local db link
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/flashcards';
 
 const viewPath = path.join(__dirname, 'views');
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.static('static'));
 app.use(express.static(path.join(__dirname, 'static')))
