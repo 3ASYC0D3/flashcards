@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 const mongoose = require('mongoose');
 const cardSamples = require('./cards');
 const { Schema } = mongoose;
-const dbUrl = 'mongodb://localhost:27017/flashcards';
+const dbUrl = process.env.DB_URL;
 const Card = require('./../../models/cards');
 
 
