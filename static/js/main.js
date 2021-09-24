@@ -6,7 +6,7 @@ let question = document.querySelector('.question');
 let answer = document.querySelector('.answer');
 let questionNumber = document.querySelector('.question-number');
 let currentCard = 0;
-const questionMax = 50;
+const questionMax = 85;
 
 
 start.addEventListener('click', (e) => {
