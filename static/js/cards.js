@@ -6,7 +6,7 @@ module.exports = [
     },
     {
         front: "await (keyword)",
-        back: "auses the execution of the function until promise is resolved.",
+        back: "Pauses the execution of the function until promise is resolved.",
         no: "2"
     },
     {
